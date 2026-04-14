@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#1a1a1a"/>
+
+  <g fill="none" stroke="#3ecf8e" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Horizontal handle (left) -->
+    <line x1="56" y1="148" x2="152" y2="148"/>
+    <!-- Diagonal arm from handle down to basket -->
+    <line x1="152" y1="148" x2="196" y2="224"/>
+    <!-- Basket top -->
+    <line x1="196" y1="224" x2="452" y2="224"/>
+    <!-- Basket right side -->
+    <line x1="452" y1="224" x2="434" y2="338"/>
+    <!-- Basket bottom -->
+    <line x1="434" y1="338" x2="212" y2="338"/>
+    <!-- Basket left side (slightly angled, connects back to arm junction) -->
+    <line x1="212" y1="338" x2="196" y2="224"/>
+  </g>
+
+  <!-- Wheels -->
+  <circle cx="264" cy="398" r="34" fill="#3ecf8e"/>
+  <circle cx="396" cy="398" r="34" fill="#3ecf8e"/>
+</svg>
